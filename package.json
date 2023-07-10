@@ -2,7 +2,7 @@
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AshutoshGaurav05.github.io/netflix-clone",
+  "homepage": "http://AshutoshGaurav05.github.io/Netflix-Clone",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.4.0",
