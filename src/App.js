@@ -7,10 +7,12 @@ import Player from "./pages/Player";
 import Signup from "./pages/Signup";
 import TVShows from "./pages/TVShows";
 import UserListedMovies from "./pages/UserListedMovies";
+// "homepage": "https://AshutoshGaurav05.github.io/netflix_clone",
 
 export default function App() {
   return (
-    <BrowserRouter>
+    // <BrowserRouter basename="/netflix_clone">
+    <BrowserRouter basename="/Netflix-Clone">
       <Routes>
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
