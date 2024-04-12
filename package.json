@@ -1,46 +1,35 @@
 {
-  "name": "netflix-clone",
-  "homepage": "https://AshutoshGaurav05.github.io/Netflix-Clone",
-  "version": "0.1.0",
-  "private": false,
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
-    "axios": "^1.4.0",
-    "cra-template": "1.2.0",
-    "firebase": "^10.0.0",
-    "gh-pages": "^5.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "react-redux": "^8.1.1",
-    "react-router-dom": "^6.14.1",
-    "react-scripts": "5.0.1",
-    "styled-components": "^6.0.3"
-  },
+  "name": "netflix-clone-api",
+  "version": "1.0.0",
+  "description": "Netflix Clone created by Ashutosh Gaurav",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as-ga/netflix-clone-api.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [
+    "Netflix",
+    "API",
+    "Ashutosh"
+  ],
+  "author": "Ashutosh Gaurav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/as-ga/netflix-clone-api/issues"
+  },
+  "homepage": "https://github.com/as-ga/netflix-clone-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
